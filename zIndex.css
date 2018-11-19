@@ -1,0 +1,24 @@
+.box {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+#red {
+    background: red;
+    z-index: 1;
+}
+
+#blue {
+    background: blue;
+    bottom: 50px;
+    left: 50px;
+    z-index: 2;
+}
+
+#green {
+    background: green;
+    bottom: 100px;
+    left: 100px;
+    z-index: 0;
+}
