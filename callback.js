@@ -4,9 +4,9 @@ function logger(elem, index) {
     console.log(index, elem)
 }
 
-function looper(arr) {
+function looper(arr, cb) {
     for(let i = 0; i < arr.length; i++) {
-        logger(arr[i], i)
+        cb(arr[i], i)
     }
 }
 
